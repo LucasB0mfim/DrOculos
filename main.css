@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.conteiner {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background-color: #FFB000;
+}
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: sticky;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.cabeca img {
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cabeca input {
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: #fff;
+}
+.menu {
+    width: 25px;
+    cursor: pointer;
+}
+.menu span {
+    width: 100%;
+    height: 3px;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 4px;
+}
+nav {
+    padding: 11px;
+    display: none;
+    background-color: #fff;
+}
+nav li {
+    display: inline;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li a {
+    color: #FFCF9D;
+    font-size: 18px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.carouselImagens {
+    max-width: 100%;
+}
+.carouselImagens img {
+    width: 100%;
+}
+.lista-oculos h1 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.opcao {
+    flex-wrap: wrap;
+}
+.lista ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.lista ul li {
+    list-style: none;
+    max-width: 40%;
+    margin-bottom: 24px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px solid #FFCF9D;
+}
+.lista li img {
+    max-width: 80%;
+    margin: 50px 10%;
+}
+.lista ul li h2 {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.lista ul li h3 {
+    font-size: 20px;
+    margin: 10% 30%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.lista ul li button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    color: #000;
+    background-color: #FFB000;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+footer {
+    color: #fff;
+    padding: 15px 0;
+    background-color: #FFB000;
+}
+footer h1 {
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+footer h2 {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+}
