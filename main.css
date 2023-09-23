@@ -50,7 +50,7 @@ nav {
     padding: 15px;
     display: none;
     background-color: #fff;
-    background-color: #F5F5DC;
+    background-color: #fdcb5e;
 }
 nav li {
     display: inline;
@@ -63,7 +63,7 @@ nav ul {
 nav li a {
     color: black;
     font-size: 18px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
