@@ -99,8 +99,8 @@ nav li a {
     margin: 50px 10%;
 }
 .lista ul li h2 {
-    margin-left: 10px;
-    font-size: 18px;
+    margin: 0 10px;
+    font-size: 17px;
     font-family: 'Roboto', sans-serif;
 }
 .lista ul li h3 {
@@ -120,6 +120,7 @@ nav li a {
     font-weight: bold;
 }
 footer {
+    margin-top: 50px;
     color: #fff;
     padding: 15px 0;
     background-color: #FFB000;
