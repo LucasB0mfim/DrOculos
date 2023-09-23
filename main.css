@@ -73,10 +73,12 @@ nav li a {
     width: 100%;
 }
 .lista-oculos h1 {
+    color: #FFCF9D;
     display: flex;
     margin-top: 20px;
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
 }
 .opcao {
     flex-wrap: wrap;
@@ -99,7 +101,8 @@ nav li a {
     margin: 50px 10%;
 }
 .lista ul li h2 {
-    margin: 0 10px;
+    color: #FFCF9D;
+    margin: 0 14%;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
 }
