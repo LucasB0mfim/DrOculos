@@ -47,9 +47,10 @@ header {
     margin-bottom: 4px;
 }
 nav {
-    padding: 11px;
+    padding: 15px;
     display: none;
     background-color: #fff;
+    background-color: #F5F5DC;
 }
 nav li {
     display: inline;
@@ -60,9 +61,10 @@ nav ul {
     align-items: center;
 }
 nav li a {
-    color: #FFCF9D;
+    color: black;
     font-size: 18px;
     margin-left: 10px;
+    font-weight: bold;
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -73,12 +75,12 @@ nav li a {
     width: 100%;
 }
 .lista-oculos h1 {
-    color: #FFCF9D;
+    color: black;
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 .opcao {
     flex-wrap: wrap;
@@ -101,12 +103,13 @@ nav li a {
     margin: 50px 10%;
 }
 .lista ul li h2 {
-    color: #FFCF9D;
+    color: #000;
     margin: 0 14%;
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
 }
 .lista ul li h3 {
+    color: #FFB000;
     font-size: 20px;
     margin: 10% 30%;
     font-family: 'Bebas Neue', sans-serif;
