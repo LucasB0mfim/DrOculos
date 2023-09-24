@@ -61,11 +61,11 @@ nav li {
 }
 nav li a {
     color: black;
-    font-size: 15px;
+    font-size: 10px;
     padding: 0 10px;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .carouselImagens {
     max-width: 100%;
@@ -76,25 +76,25 @@ nav li a {
 .lista-oculos h1 {
     color: black;
     display: flex;
-    margin: 30px 0;
+    margin: 40px 0;
     font-weight: bold;
     justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .opcao {
     flex-wrap: wrap;
 }
 .lista ul {
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
 .lista ul li {
     max-width: 40%;
     list-style: none;
     border-radius: 5px;
-    margin-left: 15px;
     margin-bottom: 24px;
     border: 2px solid #FFCF9D;
+    margin: 10px 10px;
 }
 .lista li img {
     max-width: 80%;
@@ -103,10 +103,10 @@ nav li a {
 .lista ul li h2 {
     color: #000;
     margin: 0 14%;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .lista ul li h3 {
     display: flex;
@@ -138,32 +138,35 @@ footer h1 {
     color: #fff;
     display: flex;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: normal;
     justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 footer h2 {
     display: flex;
     margin-left: 10px;
     margin-bottom: 10px;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     color: black;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 @media screen and (max-width: 350px) {
-    nav li a {
-        font-size: 12px;
-        padding: 0 10px;
-        margin: 0;
-    }
     nav {
-        padding: 15px 0;
+        padding: 8px 0;
+    }
+    nav li a {
+        font-size: 6px;
+        padding: 0 12px;
+        margin: 0;
     }
     .lista li img {
         margin: 30px 10%;
+    }
+    .lista-oculos h1 {
+        font-size: 18px;
     }
     .lista ul li h2 {
         margin: 0 14%;
@@ -177,9 +180,9 @@ footer h2 {
         height: 35px;
     }
     footer h1 {
-        font-size: 20px;
+        font-size: 15px;
     }
     footer h2 {
-        font-size: 15px;
+        font-size: 10px;
     }
 }
