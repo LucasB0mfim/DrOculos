@@ -142,7 +142,7 @@ footer {
     color: black;
     display: flex;
     font-size: 12px;
-    font-weight: normal;
+    font-weight: bold;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -170,6 +170,7 @@ footer h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
 .endereco h2 {
+    font-weight: bold;
     font-size: 12px;
     margin-bottom: 10px;
 }
