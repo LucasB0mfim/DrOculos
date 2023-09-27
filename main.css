@@ -17,10 +17,6 @@ header {
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
-    position: sticky;
-    z-index: 1;
-    left: 0;
-    top: 0;
 }
 .cabeca img {
     height: 45px;
@@ -32,7 +28,6 @@ header {
     border: none;
     outline: none;
     border-radius: 5px;
-    padding-left: 5px;
     background-color: #fff;
 }
 .menu {
@@ -41,7 +36,7 @@ header {
 }
 .menu span {
     width: 100%;
-    height: 3px;
+    height: 2px;
     display: block;
     background-color: #fff;
     margin-bottom: 4px;
@@ -81,26 +76,25 @@ nav li a {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
-.opcao {
+.lista {
     flex-wrap: wrap;
-}
-.lista ul {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.lista ul li {
-    max-width: 40%;
-    list-style: none;
+.opcao {
+    max-width: 19.6%;
+    margin: 0 2%;
+}
+.opcao {
     border-radius: 5px;
     margin-bottom: 24px;
     border: 2px solid #FFCF9D;
-    margin: 10px 10px;
 }
-.lista li img {
+.opcao img {
     max-width: 80%;
     margin: 50px 10%;
 }
-.lista ul li h2 {
+.opcao h2 {
     color: #000;
     margin: 0 14%;
     font-size: 12px;
@@ -108,7 +102,7 @@ nav li a {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
-.lista ul li h3 {
+.opcao h3 {
     display: flex;
     font-size: 20px;
     margin: 10% 30%;
@@ -116,7 +110,7 @@ nav li a {
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
 }
-.lista ul li button {
+.opcao button {
     width: 90%;
     color: #000;
     border: none;
@@ -187,17 +181,17 @@ footer h2, h3 {
         padding: 0 12px;
         margin: 0;
     }
-    .lista li img {
+    .opcao img {
         margin: 30px 10%;
     }
     .lista-oculos h1 {
         font-size: 18px;
     }
-    .lista ul li h2 {
+    .opcao h2 {
         margin: 0 14%;
         font-size: 10px;
     }
-    .lista ul li h3 {
+    .opcao h3 {
         font-size: 20px;
         margin: 10% 14%;
     }
@@ -230,5 +224,33 @@ footer h2, h3 {
     }
     .endereco h3 {
         font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .conteiner {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .cabeca input {
+        font-weight: bold;
+        padding-left: 15px;
+        border-radius: 15px;
+        width: 650px;
+        height: 40px;
+    }
+    .cabeca img {
+        height: 70px;
+    }
+    #lupa {
+        cursor: pointer;
+        height: 20px;
+        position: absolute;
+        right: 440px;
+    }
+    header ul li a {
+        font-size: 15px;
+        padding: 0 60px;
     }
 }
