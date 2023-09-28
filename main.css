@@ -131,8 +131,14 @@ nav li a {
     margin-left: 5%;
     margin-bottom: 15px;
     font-weight: bold;
+    cursor: pointer;
     background-color: #FFB000;
 }
+
+.opcao a {
+    text-decoration: none;
+}
+
 footer {
     color: #fff;
     display: flex;
