@@ -38,9 +38,9 @@ header {
 }
 #lupa {
     cursor: pointer;
-    height: 18px;
+    height: 15px;
     position: relative;
-    right: 55px;
+    right: 38px;
 }
 .menu {
     width: 25px;
@@ -191,9 +191,9 @@ footer h2, h3 {
     }
     #lupa {
         cursor: pointer;
-        height: 15px;
+        height: 10px;
         position: relative;
-        right: 25px;
+        right: 15px;
     }
     nav {
         padding: 8px 0;
