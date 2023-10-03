@@ -3,17 +3,17 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: #f3f3f3;
+}
 .conteiner {
-    max-width: 360px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
-.flex {
-    display: flex;
-    justify-content: center;
-}
 header {
     background-color: #FFB000;
+    margin-bottom: 50px;
 }
 .cabeca {
     display: flex;
@@ -23,24 +23,26 @@ header {
     padding-right: 15px;
 }
 .cabeca img {
-    height: 45px;
+    height: 70px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .cabeca input {
-    height: 30px;
-    border: none;
-    outline: none;
+    font-weight: bold;
+    border-radius: 15px;
+    padding-left: 15px;
     margin-left: 10%;
-    padding-left: 8px;
-    border-radius: 5px;
+    width: 650px;
+    height: 40px;
+    border: none;
     background-color: #fff;
+    text-align: left;
 }
 #lupa {
     cursor: pointer;
-    height: 15px;
+    height: 20px;
     position: relative;
-    right: 38px;
+    right: 160px;
 }
 .menu {
     width: 25px;
@@ -67,38 +69,239 @@ nav li {
 }
 nav li a {
     color: black;
-    font-size: 10px;
-    padding: 0 10px;
+    font-size: 15px;
+    padding: 0 60px;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (min-width: 1024px) {
+
+
+
+
+.conteudo {
+    max-width: 94%;
+    width: 100%;
+    margin: 0 auto;
+}
+.deLado {
+    display: flex;
+}
+.produto {
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.produto img {
+    height: 200px;
+}
+main {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+main > p {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+aside > img {
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+.preco {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+.preco > h3 {
+    font-size: 18px;
+    color: #ccc;
+}
+.preco > h2 {
+    margin-left: 20px;
+    color: #FFB000;
+}
+.promocao{
+    margin: 40px 0;
+}
+#pague-mais {
+    display: none;
+}
+.promocao > p {
+    color: #FFB000;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 3px solid #FFB000;
+    padding: 0 5px;
+}
+.quant {
+    align-items: center;
+    margin: 20px 0;
+}
+.quant button {
+    cursor: pointer;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+input {
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ccc;
+}
+button {
+    height: 40px;
+    width: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.comprar button {
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    color: #ff7300;
+    border: 2px solid #FFB000;
+    background-color: rgba(255, 136, 0, 0.2);
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#btnTwo {
+    margin-left: 20px;
+    background-color: rgba(255, 136, 0, 0.9);
+    color: #fff;
+}
+.comprar button:hover {
+    background-color: rgba(255, 136, 0, 0.1);
+}
+.comprar #btnTwo:hover {
+    background-color: rgba(255, 136, 0, 0.7);
+}
+
+
+footer {margin-top: 50px;
+    color: #fff;
+    background-color: #ff7300;
+}
+.footer h1 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+.footer,
+.redeSocial {
+    display: flex;
+    justify-content: center;
+}
+.contato img {
+    height: 30px;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+.endereco {
+    text-align: center;
+}
+.endereco > h2 {
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+.contato,
+.endereco {
+    margin: 2% 10%;
+}
+
+@media screen and (max-width: 500px) {
     .conteiner {
-        max-width: 1280px;
+        max-width: 350px;
         width: 100%;
         margin: 0 auto;
     }
-    .cabeca input {
-        font-weight: bold;
-        padding-left: 15px;
-        border-radius: 15px;
-        margin-left: 10%;
-        width: 650px;
-        height: 40px;
+    .cabeca {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 15px;
     }
     .cabeca img {
-        height: 70px;
+        height: 45px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .cabeca img {
+        height: 45px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cabeca input {
+        width: 180px;
+        height: 30px;
+        border: none;
+        outline: none;
+        margin-left: 10%;
+        padding-left: 8px;
+        border-radius: 5px;
+        background-color: #fff;
     }
     #lupa {
-        cursor: pointer;
-        height: 20px;
-        position: relative;
-        right: 160px;
+        top: 0%;
+        height: 15px;
+        right: 35px;
     }
-    header ul li a {
-        font-size: 15px;
-        padding: 0 60px;
+    .menu {
+        width: 25px;
+    }
+    .menu span {
+        width: 100%;
+        height: 2px;
+        margin-bottom: 4px;
+    }
+    nav {
+        padding: 15px 0;
+    }
+    nav li a {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .produto {
+        display: block;
+    }
+    aside img {
+        left: 16%;
+        bottom: 0%;
+        top: 0%;
+        width: 250px;
+    }
+    #pague-mais-int {
+        display: none;
+    }
+    #pague-mais {
+        display: block;
+    }
+    .promocao {
+        align-items: center;
+    }
+    .promocao > p {
+        height: 30px;
+        padding: 0 5px;
+        margin-left: 5%;
+    }
+    .comprar button {
+        margin: 0;
+        width: 150px;
+    }
+    #btnTwo {
+        margin-left: 0;
     }
 }
