@@ -15,4 +15,7 @@ $(document).ready(function() {
             valorInput.val(valorAtual - 1);
         }
     });
+    $("#btn-1").click(function() {
+        alert("Seu produto foi adicionado ao carrinho!");
+    })
 }) 
