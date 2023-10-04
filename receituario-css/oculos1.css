@@ -142,26 +142,26 @@ main .quantidade input {
 
 #btn-1 {
     border-radius: 2px;
-    border: 1px solid #ff7300;
-    background-color: rgb(255, 115, 0, .3);
+    border: 1px solid #FFB000;
+    background-color: rgb(255, 174, 0, .3);
     font-weight: bold;
-    color: #ff7300;
+    color: #FFB000;
 }
 
 #btn-1:hover {
-    background-color: rgb(255, 115, 0, .2);
+    background-color: rgb(255, 174, 0, .1);
 }
 
 #btn-2 {
     border-radius: 2px;
-    border: 1px solid #ff7300;
-    background-color: #ff7300;
+    border: 1px solid #FFB000;
+    background-color: #FFB000;
     font-weight: bold;
     color: #fff;
 }
 
 #btn-2:hover {
-    background-color: rgb(255, 115, 0, .8);
+    background-color: rgb(255, 176, 0, .8);
 }
 
 
@@ -171,7 +171,7 @@ footer {
     color: #fff;
     display: flex;
     justify-content: center;
-    background-color: #ff7300;
+    background-color: #FFB000;
 }
 .redes-logo {
     padding: 20px 10px;
@@ -217,14 +217,12 @@ footer h2, h3 {
     font-size: 12px;
 }
 
-@media screen and (max-width: 500px) {
-    .pagInd {
-        margin: 20% auto;
-        padding: 10% 0;
-    }
-}
-
 @media screen and (max-width: 350px) {
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
     .cabeca input {
         height: 24px;
         margin-left: 5%;
@@ -246,6 +244,13 @@ footer h2, h3 {
     .cabeca img {
         height: 35px;
     }
+    .pagInd {
+        position: absolute;
+        top: 49%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+    }
     .pagInd img {
         height: 80px;
         margin: 30px;
@@ -264,6 +269,101 @@ footer h2, h3 {
         width: 100px;
         height: 40px;
         margin: 20px 5px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    footer h1 {
+        font-size: 15px;
+    }
+    footer h2 {
+        font-size: 10px;
+    }
+    .redes-logo {
+        padding: 20px 10px;
+    }
+    .redes-logo h1 {
+        font-size: 10px;
+    }
+    .redes-logo .logo img {
+        height: 25px;
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+    .endereco {
+        padding: 20px 10px;
+    }
+    .endereco h2 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .endereco h3 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    .cabeca input {
+        height: 24px;
+        margin-left: 5%;
+    }
+    #lupa {
+        cursor: pointer;
+        height: 10px;
+        position: relative;
+        right: 40px;
+    }
+    nav {
+        padding: 8px 0;
+    }
+    nav li a {
+        font-size: 8px;
+        padding: 0 12px;
+        margin: 0;
+    }
+    .cabeca img {
+        height: 35px;
+    }
+    .pagInd {
+        position: absolute;
+        top: 49%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .pagInd img {
+        height: 80px;
+        margin: 30px;
+    }
+    main > h1 {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .preco > p {
+        font-size: 12px;
+    }
+    .preco > h2 {
+        font-size: 18px;
+    }
+    .cmpr button {
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 20px 5px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
     }
     footer h1 {
         font-size: 15px;
