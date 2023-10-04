@@ -4,16 +4,19 @@
     margin: 0;
 }
 body {
-    background-color: #f3f3f3;
+    background-color: #e2e2e2;
 }
 .conteiner {
-    max-width: 1280px;
+    max-width: 360px;
     width: 100%;
     margin: 0 auto;
 }
+.flex {
+    display: flex;
+    justify-content: center;
+}
 header {
     background-color: #FFB000;
-    margin-bottom: 50px;
 }
 .cabeca {
     display: flex;
@@ -23,26 +26,24 @@ header {
     padding-right: 15px;
 }
 .cabeca img {
-    height: 70px;
+    height: 45px;
     margin-bottom: 10px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 .cabeca input {
-    font-weight: bold;
-    border-radius: 15px;
-    padding-left: 15px;
-    margin-left: 10%;
-    width: 650px;
-    height: 40px;
+    height: 30px;
     border: none;
+    outline: none;
+    margin-left: 10%;
+    padding-left: 8px;
+    border-radius: 5px;
     background-color: #fff;
-    text-align: left;
 }
 #lupa {
     cursor: pointer;
-    height: 20px;
+    height: 15px;
     position: relative;
-    right: 160px;
+    right: 38px;
 }
 .menu {
     width: 25px;
@@ -56,7 +57,7 @@ header {
     margin-bottom: 4px;
 }
 nav {
-    padding: 15px 0;
+    padding: 13px 0;
     background-color: #ffc444;
 }
 nav ul {
@@ -69,8 +70,8 @@ nav li {
 }
 nav li a {
     color: black;
-    font-size: 15px;
-    padding: 0 60px;
+    font-size: 10px;
+    padding: 0 10px;
     font-weight: bold;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -78,230 +79,217 @@ nav li a {
 
 
 
-
-
-.conteudo {
-    max-width: 94%;
+.pagInd {
+    max-width: 90%;
     width: 100%;
-    margin: 0 auto;
-}
-.deLado {
-    display: flex;
-}
-.produto {
-    border-radius: 5px;
-    background-color: #fff;
-    font-family: 'Poppins', sans-serif;
-}
-.produto img {
-    height: 200px;
-}
-main {
-    max-width: 500px;
-    width: 100%;
-    margin: 0 auto;
-}
-main > p {
-    margin-top: 50px;
-    font-size: 16px;
-    font-weight: bolder;
-    font-family: 'Poppins', sans-serif;
-}
-aside > img {
-    position: relative;
-    top: 120px;
-    left: 100px;
-}
-.preco {
-    display: flex;
-    align-items: center;
-    margin: 40px 0;
-}
-.preco > h3 {
-    font-size: 18px;
-    color: #ccc;
-}
-.preco > h2 {
-    margin-left: 20px;
-    color: #FFB000;
-}
-.promocao{
-    margin: 40px 0;
-}
-#pague-mais {
-    display: none;
-}
-.promocao > p {
-    color: #FFB000;
-    margin-left: 20px;
-    cursor: pointer;
-    border: 3px solid #FFB000;
-    padding: 0 5px;
-}
-.quant {
-    align-items: center;
-    margin: 20px 0;
-}
-.quant button {
-    cursor: pointer;
-}
-.btn {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-}
-input {
-    height: 40px;
-    width: 60px;
+    margin: 5% auto;
+    border-radius: 8px;
     text-align: center;
-    outline: none;
-    border: 1px solid #ccc;
-}
-button {
-    height: 40px;
-    width: 30px;
-    border: 1px solid #ccc;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
     background-color: #fff;
 }
-.comprar button {
-    font-weight: bold;
-    height: 50px;
-    width: 200px;
-    cursor: pointer;
-    color: #ff7300;
-    border: 2px solid #FFB000;
-    background-color: rgba(255, 136, 0, 0.2);
-    border-radius: 2px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-#btnTwo {
-    margin-left: 20px;
-    background-color: rgba(255, 136, 0, 0.9);
-    color: #fff;
-}
-.comprar button:hover {
-    background-color: rgba(255, 136, 0, 0.1);
-}
-.comprar #btnTwo:hover {
-    background-color: rgba(255, 136, 0, 0.7);
+
+aside img {
+    height: 100px;
+    margin: 40px 0;
 }
 
-
-footer {margin-top: 50px;
-    color: #fff;
-    background-color: #ff7300;
-}
-.footer h1 {
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+main > h1 {
     font-size: 15px;
-    color: #000;
 }
-.footer,
-.redeSocial {
+
+main .preco {
+    align-items: center;
+    margin-top: 20px;
+}
+
+main .preco > h2 {
+    font-weight: bolder;
+    color: #FFB000;
+}
+
+main .quantidade {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.contato img {
-    height: 30px;
-    padding: 0 5px;
-    margin: 5px 0;
+
+main .quantidade button,
+main .quantidade input {
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border: 1px solid #ccc;
 }
-.endereco {
+
+main .quantidade input {
+    width: 50px;
     text-align: center;
 }
-.endereco > h2 {
-    font-size: 15px;
-    font-weight: normal;
+
+.cmpr button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 20px 0;
+    height: 50px;
+    width: 120px;
+}
+
+#btn-1 {
+    border-radius: 2px;
+    border: 1px solid #ff7300;
+    background-color: rgb(255, 115, 0, .3);
+    font-weight: bold;
+    color: #ff7300;
+}
+
+#btn-1:hover {
+    background-color: rgb(255, 115, 0, .2);
+}
+
+#btn-2 {
+    border-radius: 2px;
+    border: 1px solid #ff7300;
+    background-color: #ff7300;
+    font-weight: bold;
+    color: #fff;
+}
+
+#btn-2:hover {
+    background-color: rgb(255, 115, 0, .8);
+}
+
+
+
+footer {
+    bottom: 0%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    background-color: #ff7300;
+}
+.redes-logo {
+    padding: 20px 10px;
+}
+.redes-logo h1 {
+    color: black;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
-.contato,
+.redes-logo .logo img {
+    height: 30px;
+    padding: 0 5px;
+    margin: 15px 0;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo li {
+    list-style: none;
+}
 .endereco {
-    margin: 2% 10%;
+    padding: 20px 10px;
+}
+footer h2, h3 {
+    color: black;
+    display: flex;
+    font-weight: normal;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.endereco h2 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.endereco h3 {
+    color: #fff;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 500px) {
-    .conteiner {
-        max-width: 350px;
-        width: 100%;
-        margin: 0 auto;
+    .pagInd {
+        margin: 20% auto;
+        padding: 10% 0;
     }
-    .cabeca {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 10px;
-        padding-right: 15px;
-    }
-    .cabeca img {
-        height: 45px;
-        margin-bottom: 10px;
-        margin-right: 10px;
-    }
-    .cabeca img {
-        height: 45px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
+}
+
+@media screen and (max-width: 350px) {
     .cabeca input {
-        width: 180px;
-        height: 30px;
-        border: none;
-        outline: none;
-        margin-left: 10%;
-        padding-left: 8px;
-        border-radius: 5px;
-        background-color: #fff;
-    }
-    #lupa {
-        top: 0%;
-        height: 15px;
-        right: 35px;
-    }
-    .menu {
-        width: 25px;
-    }
-    .menu span {
-        width: 100%;
-        height: 2px;
-        margin-bottom: 4px;
-    }
-    nav {
-        padding: 15px 0;
-    }
-    nav li a {
-        font-size: 10px;
-        padding: 0 10px;
-    }
-    .produto {
-        display: block;
-    }
-    aside img {
-        left: 16%;
-        bottom: 0%;
-        top: 0%;
-        width: 250px;
-    }
-    #pague-mais-int {
-        display: none;
-    }
-    #pague-mais {
-        display: block;
-    }
-    .promocao {
-        align-items: center;
-    }
-    .promocao > p {
-        height: 30px;
-        padding: 0 5px;
+        height: 24px;
         margin-left: 5%;
     }
-    .comprar button {
-        margin: 0;
-        width: 150px;
+    #lupa {
+        cursor: pointer;
+        height: 10px;
+        position: relative;
+        right: 15px;
     }
-    #btnTwo {
-        margin-left: 0;
+    nav {
+        padding: 8px 0;
+    }
+    nav li a {
+        font-size: 6px;
+        padding: 0 12px;
+        margin: 0;
+    }
+    .cabeca img {
+        height: 35px;
+    }
+    .pagInd img {
+        height: 80px;
+        margin: 30px;
+    }
+    main > h1 {
+        font-size: 14px;
+    }
+    .preco > p {
+        font-size: 12px;
+    }
+    .preco > h2 {
+        font-size: 18px;
+    }
+    .cmpr button {
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        margin: 20px 5px;
+    }
+    footer h1 {
+        font-size: 15px;
+    }
+    footer h2 {
+        font-size: 10px;
+    }
+    .redes-logo {
+        padding: 20px 10px;
+    }
+    .redes-logo h1 {
+        font-size: 10px;
+    }
+    .redes-logo .logo img {
+        height: 25px;
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+    .endereco {
+        padding: 20px 10px;
+    }
+    .endereco h2 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .endereco h3 {
+        font-size: 8px;
     }
 }
