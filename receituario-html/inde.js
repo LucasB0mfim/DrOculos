@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     $("#diminuir").click(function() {
         var valorAtual = parseInt(valorInput.val());
-        if (valorAtual > 0) {
+        if (valorAtual > 1) {
             valorInput.val(valorAtual - 1);
         }
     });
