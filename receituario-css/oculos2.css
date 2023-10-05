@@ -385,26 +385,75 @@ footer h2, h3 {
 }
 
 @media screen and (max-width: 450px) {
+    .conteiner {
+        max-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        background-color: #FFB000;
+    }
+    .cabeca {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cabeca img {
+        height: 45px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
     .cabeca input {
-        height: 24px;
-        margin-left: 5%;
+        height: 30px;
+        border: none;
+        outline: none;
+        margin-left: 10%;
+        padding-left: 8px;
+        border-radius: 5px;
+        background-color: #fff;
     }
     #lupa {
         cursor: pointer;
-        height: 10px;
+        height: 15px;
         position: relative;
-        right: 40px;
+        right: 38px;
+    }
+    .menu {
+        width: 25px;
+        cursor: pointer;
+    }
+    .menu span {
+        width: 100%;
+        height: 2px;
+        display: block;
+        background-color: #fff;
+        margin-bottom: 4px;
     }
     nav {
-        padding: 8px 0;
+        padding: 15px 0;
+        background-color: #ffc444;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav li {
+        display: inline;
     }
     nav li a {
-        font-size: 6px;
-        padding: 0 12px;
-        margin: 0;
-    }
-    .cabeca img {
-        height: 35px;
+        color: black;
+        font-size: 10px;
+        padding: 0 10px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
     }
     .produto {
         display: block;
@@ -463,7 +512,7 @@ footer h2, h3 {
     .cmpr button {
         font-size: 10px;
         width: 100px;
-        height: 30px;
+        height: 35px;
         margin: 0;
         margin-bottom: 15%;
     }
