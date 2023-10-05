@@ -523,7 +523,10 @@ footer h2, h3 {
         margin-left: 10px;
     }
     footer {
-        margin-top: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
     }
     footer h1 {
         font-size: 15px;
