@@ -266,123 +266,6 @@ footer h2, h3 {
     font-size: 12px;
 }
 
-@media screen and (max-width: 350px) {
-    .cabeca input {
-        height: 24px;
-        margin-left: 5%;
-    }
-    #lupa {
-        cursor: pointer;
-        height: 10px;
-        position: relative;
-        right: 15px;
-    }
-    nav {
-        padding: 8px 0;
-    }
-    nav li a {
-        font-size: 6px;
-        padding: 0 12px;
-        margin: 0;
-    }
-    .cabeca img {
-        height: 35px;
-    }
-    .produto {
-        display: block;
-        margin-top: 15%;
-    }
-    aside {
-        max-width: 150px;
-        width: 100%;
-        margin-left: 23%;
-    }
-    aside img {
-        margin-top: 20%;
-    }
-    main {
-        margin-left: 0px;
-    }
-    .nome {
-        margin-top: 10%;
-        margin-left: 0;
-        text-align: center;
-        font-size: 12px;
-    }
-    .preco > h2 {
-        font-size: 10px;
-        margin-left: 10px;
-    }
-    .preco > h1 {
-        font-size: 20px;
-    }
-    .quant > h1 {
-        font-size: 10px;
-        margin-left: 10px;
-    }
-    .quantidade input {
-        width: 40px;
-        height: 25px;
-        border-top: 1px solid #FFB000;
-        border-bottom: 1px solid #FFB000;
-    }
-    .quantidade button {
-        width: 25px;
-        height: 25px;
-        border: 1px solid #FFB000;
-    }
-    .cmpr {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .cmpr button {
-        font-size: 10px;
-        width: 100px;
-        height: 30px;
-        margin: 0;
-        margin-bottom: 15%;
-    }
-    #btn-1 {
-        border: 1px solid #FFB000;
-    }
-    #btn-2 {
-        margin-left: 10px;
-    }
-    footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
-    footer h1 {
-        font-size: 15px;
-    }
-    footer h2 {
-        font-size: 10px;
-    }
-    .redes-logo {
-        padding: 20px 10px;
-    }
-    .redes-logo h1 {
-        font-size: 10px;
-    }
-    .redes-logo .logo img {
-        height: 25px;
-        padding: 0 5px;
-        margin: 10px 0;
-    }
-    .endereco {
-        padding: 20px 10px;
-    }
-    .endereco h2 {
-        font-size: 10px;
-        margin-bottom: 10px;
-    }
-    .endereco h3 {
-        font-size: 8px;
-    }
-}
 
 @media screen and (max-width: 450px) {
     .conteiner {
@@ -527,6 +410,124 @@ footer h2, h3 {
         width: 100%;
         bottom: 0;
         left: 0;
+    }
+    footer h1 {
+        font-size: 15px;
+    }
+    footer h2 {
+        font-size: 10px;
+    }
+    .redes-logo {
+        padding: 20px 10px;
+    }
+    .redes-logo h1 {
+        font-size: 10px;
+    }
+    .redes-logo .logo img {
+        height: 25px;
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+    .endereco {
+        padding: 20px 10px;
+    }
+    .endereco h2 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .endereco h3 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .cabeca input {
+        height: 24px;
+        margin-left: 5%;
+    }
+    #lupa {
+        cursor: pointer;
+        height: 10px;
+        position: relative;
+        right: 15px;
+    }
+    nav {
+        padding: 8px 0;
+    }
+    nav li a {
+        font-size: 5px;
+        padding: 0 12px;
+        margin: 0;
+    }
+    .cabeca img {
+        height: 35px;
+    }
+    .produto {
+        display: block;
+        margin-top: 15%;
+    }
+    aside {
+        max-width: 150px;
+        width: 100%;
+        margin-left: 23%;
+    }
+    aside img {
+        margin-top: 20%;
+    }
+    main {
+        margin-left: 0px;
+    }
+    .nome {
+        margin-top: 10%;
+        margin-left: 0;
+        text-align: center;
+        font-size: 12px;
+    }
+    .preco > h2 {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .preco > h1 {
+        font-size: 20px;
+    }
+    .quant > h1 {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .quantidade input {
+        width: 40px;
+        height: 25px;
+        border-top: 1px solid #FFB000;
+        border-bottom: 1px solid #FFB000;
+    }
+    .quantidade button {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #FFB000;
+    }
+    .cmpr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cmpr button {
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+        margin: 0;
+        margin-bottom: 15%;
+    }
+    #btn-1 {
+        border: 1px solid #FFB000;
+    }
+    #btn-2 {
+        margin-left: 10px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
     footer h1 {
         font-size: 15px;
