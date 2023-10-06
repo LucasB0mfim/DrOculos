@@ -3,21 +3,26 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: #e2e2e2;
 }
+
 .conteiner {
     max-width: 360px;
     width: 100%;
     margin: 0 auto;
 }
+
 .flex {
     display: flex;
     justify-content: center;
 }
+
 header {
     background-color: #FFB000;
 }
+
 .cabeca {
     display: flex;
     align-items: center;
@@ -25,11 +30,13 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .cabeca img {
     height: 45px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 .cabeca input {
     height: 30px;
     border: none;
@@ -39,16 +46,19 @@ header {
     border-radius: 5px;
     background-color: #fff;
 }
+
 #lupa {
     cursor: pointer;
     height: 15px;
     position: relative;
     right: 38px;
 }
+
 .menu {
     width: 25px;
     cursor: pointer;
 }
+
 .menu span {
     width: 100%;
     height: 2px;
@@ -56,18 +66,22 @@ header {
     background-color: #fff;
     margin-bottom: 4px;
 }
+
 nav {
-    padding: 13px 0;
+    padding: 15px 0;
     background-color: #ffc444;
 }
+
 nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 nav li {
     display: inline;
 }
+
 nav li a {
     color: black;
     font-size: 10px;
@@ -77,109 +91,133 @@ nav li a {
     font-family: 'Poppins', sans-serif;
 }
 
+.flex {
+    display: flex;
+}
 
-
-.pagInd {
+.produto {
+    background-color: #fff;
+    border-radius: 15px;
     max-width: 90%;
     width: 100%;
-    margin: 5% auto;
-    border-radius: 8px;
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    background-color: #fff;
+    margin: 8% auto;
+    justify-content: left;
 }
 
+aside {
+    max-width: 640px;
+    width: 20%;
+    margin-left: 15%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
 aside img {
-    height: 100px;
-    margin: 40px 0;
+    width: 100%;
 }
 
-main > h1 {
-    font-size: 15px;
+main {
+    margin-left: 20%;
+    font-family: 'Poppins', sans-serif;
 }
 
-main .preco {
-    align-items: center;
-    margin-top: 20px;
+.nome {
+    margin-top: 15%;
+    margin-bottom: 10%;
 }
 
-main .preco > h2 {
-    font-weight: bolder;
-    color: #FFB000;
-}
-
-.leveMais {
-    display: none;
-}
-
-main .quantidade {
-    margin-top: 20px;
+.preco {
     display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 10% 0;
+}
+
+.preco > h2 {
+    line-height: .7;
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+}
+.preco > h1 {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #FFB000;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.quant {
+    margin: 10% 0;
+    display: flex;
+    align-items: center;
+}
+.quant > h1 {
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+}
+.quantidade {
+    display: flex;
+    margin-left: 10px;
     justify-content: center;
 }
-
-main .quantidade button,
-main .quantidade input {
-    height: 35px;
-    width: 35px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-}
-
-main .quantidade input {
+.quantidade input {
     width: 50px;
+    height: 30px;
+    border: none;
+    outline: none;
     text-align: center;
+    border-top: 2px solid #FFB000;
+    border-bottom: 2px solid #FFB000;
+}
+.quantidade button {
+    width: 25px;
+    height: 30px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #FFB000;
 }
 
 .cmpr button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin: 20px 0;
     height: 50px;
-    width: 120px;
+    width: 150px;
+    margin-top: 2%;
+    margin-bottom: 15%;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
 }
-
 #btn-1 {
-    border-radius: 2px;
-    border: 1px solid #FFB000;
-    background-color: rgb(255, 174, 0, .3);
-    font-weight: bold;
     color: #FFB000;
+    border: 3px solid #FFB000;
+    background-color: #fff;
 }
-
 #btn-1:hover {
-    background-color: rgb(255, 174, 0, .1);
+    background-color: rgb(255, 176, 0, .2);
 }
-
 #btn-2 {
-    border-radius: 2px;
-    border: 1px solid #FFB000;
-    background-color: #FFB000;
-    font-weight: bold;
     color: #fff;
+    margin-left: 20px;
+    border: none;
+    background-color: #FFB000;
 }
-
 #btn-2:hover {
     background-color: rgb(255, 176, 0, .8);
 }
 
-
-
 footer {
-    bottom: 0%;
     color: #fff;
     display: flex;
+    margin-top: 40px;
     justify-content: center;
     background-color: #FFB000;
 }
+
 .redes-logo {
     padding: 20px 10px;
 }
+
 .redes-logo h1 {
     color: black;
     display: flex;
@@ -188,22 +226,27 @@ footer {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
+
 .redes-logo .logo img {
     height: 30px;
     padding: 0 5px;
     margin: 15px 0;
 }
+
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .logo li {
     list-style: none;
 }
+
 .endereco {
     padding: 20px 10px;
 }
+
 footer h2, h3 {
     color: black;
     display: flex;
@@ -211,22 +254,20 @@ footer h2, h3 {
     justify-content: center;
     font-family: 'Poppins', sans-serif;
 }
+
 .endereco h2 {
     font-weight: bold;
     font-size: 12px;
     margin-bottom: 10px;
 }
+
 .endereco h3 {
     color: #fff;
     font-size: 12px;
 }
 
-@media screen and (max-width: 350px) {
-    header {
-        width: 100%;
-        position: fixed;
-        top: 0;
-    }
+
+@media screen and (min-width: 200px) and (max-width: 350px) {
     .cabeca input {
         height: 24px;
         margin-left: 5%;
@@ -248,36 +289,80 @@ footer h2, h3 {
     .cabeca img {
         height: 35px;
     }
-    .pagInd {
-        position: absolute;
-        top: 49%;
-        left: 0;
-        right: 0;
-        transform: translateY(-50%);
+    .produto {
+        display: block;
+        margin-top: 10%;
     }
-    .pagInd img {
-        height: 80px;
-        margin: 30px;
+    aside {
+        max-width: 150px;
+        width: 100%;
+        margin-left: 22%;
     }
-    main > h1 {
-        font-size: 14px;
+    aside img {
+        margin-top: 20%;
     }
-    .preco > p {
-        font-size: 12px;
+    main {
+        margin-left: 0px;
+    }
+    .nome {
+        margin: 10% 0;
+        text-align: center;
+        font-size: 10px;
+    }
+    .preco {
+        display: block;
     }
     .preco > h2 {
-        font-size: 18px;
+        font-size: 12px;
+    }
+    .preco > h1 {
+        font-size: 25px;
+        margin-left: 0;
+    }
+    .quant {
+        display: block;
+    }
+    .quantidade {
+        margin-left: 0;
+    }
+    .quant > h1 {
+        text-align: center;
+        font-size: 10px;
+    }
+    .quantidade input {
+        width: 40px;
+        height: 25px;
+        border-top: 1px solid #FFB000;
+        border-bottom: 1px solid #FFB000;
+    }
+    .quantidade button {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #FFB000;
+    }
+    .cmpr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .cmpr button {
         font-size: 10px;
         width: 100px;
-        height: 40px;
-        margin: 20px 5px;
+        height: 35px;
+        margin: 0;
+        margin-bottom: 15%;
+    }
+    #btn-1 {
+        border: 1px solid #FFB000;
+    }
+    #btn-2 {
+        margin-left: 10px;
     }
     footer {
         position: fixed;
-        bottom: 0;
         width: 100%;
+        bottom: 0;
+        left: 0;
     }
     footer h1 {
         font-size: 15px;
@@ -286,7 +371,8 @@ footer h2, h3 {
         font-size: 10px;
     }
     .redes-logo {
-        padding: 20px 10px;
+        padding: 0 10px;
+        padding-top: 20px;
     }
     .redes-logo h1 {
         font-size: 10px;
@@ -297,7 +383,8 @@ footer h2, h3 {
         margin: 10px 0;
     }
     .endereco {
-        padding: 20px 10px;
+        padding: 0 10px;
+        padding-top: 20px;
     }
     .endereco h2 {
         font-size: 10px;
@@ -308,65 +395,156 @@ footer h2, h3 {
     }
 }
 
-@media screen and (max-width: 450px) {
-    header {
+@media screen and (min-width: 378px) and (max-width: 500px) {
+    .conteiner {
+        max-width: 360px;
         width: 100%;
-        position: fixed;
-        top: 0;
+        margin: 0 auto;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        background-color: #FFB000;
+    }
+    .cabeca {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cabeca img {
+        height: 45px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .cabeca input {
-        height: 24px;
-        margin-left: 5%;
+        height: 30px;
+        border: none;
+        outline: none;
+        margin-left: 10%;
+        padding-left: 8px;
+        border-radius: 5px;
+        background-color: #fff;
     }
     #lupa {
         cursor: pointer;
-        height: 10px;
+        height: 15px;
         position: relative;
-        right: 40px;
+        right: 38px;
+    }
+    .menu {
+        width: 25px;
+        cursor: pointer;
+    }
+    .menu span {
+        width: 100%;
+        height: 2px;
+        display: block;
+        background-color: #fff;
+        margin-bottom: 4px;
     }
     nav {
-        padding: 8px 0;
+        padding: 15px 0;
+        background-color: #ffc444;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav li {
+        display: inline;
     }
     nav li a {
-        font-size: 8px;
-        padding: 0 12px;
-        margin: 0;
+        color: black;
+        font-size: 10px;
+        padding: 0 10px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
     }
-    .cabeca img {
-        height: 35px;
+    .produto {
+        display: block;
+        margin-top: 15%;
     }
-    .pagInd {
-        position: absolute;
-        top: 49%;
-        left: 0;
-        right: 0;
-        transform: translateY(-50%);
+    aside {
+        max-width: 150px;
+        width: 100%;
+        margin-left: 30%;
     }
-    .pagInd img {
-        height: 80px;
-        margin: 30px;
+    aside img {
+        margin-top: 20%;
     }
-    main > h1 {
+    main {
+        margin-left: 0px;
+    }
+    .nome {
+        margin-top: 10%;
+        margin-left: 0;
         text-align: center;
-        width: 90%;
-        margin: 0 auto;
         font-size: 14px;
     }
-    .preco > p {
-        font-size: 12px;
+    .nome > p {
+        padding: 0 10px;
+    }
+    .preco {
+        display: block;
     }
     .preco > h2 {
-        font-size: 18px;
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .preco > h1 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .quant {
+        display: block;
+        text-align: center;
+    }
+    .quant > h1 {
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .quantidade {
+        margin-left: 0;
+    }
+    .quantidade input {
+        width: 40px;
+        height: 25px;
+        border-top: 1px solid #FFB000;
+        border-bottom: 1px solid #FFB000;
+    }
+    .quantidade button {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #FFB000;
+    }
+    .cmpr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .cmpr button {
         font-size: 10px;
         width: 100px;
-        height: 40px;
-        margin: 20px 5px;
+        height: 30px;
+        margin: 0;
+        margin-bottom: 15%;
+    }
+    #btn-1 {
+        border: 1px solid #FFB000;
+    }
+    #btn-2 {
+        margin-left: 10px;
     }
     footer {
         position: fixed;
         bottom: 0;
+        left: 0;
         width: 100%;
     }
     footer h1 {
@@ -376,7 +554,7 @@ footer h2, h3 {
         font-size: 10px;
     }
     .redes-logo {
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
     .redes-logo h1 {
         font-size: 10px;
@@ -387,11 +565,198 @@ footer h2, h3 {
         margin: 10px 0;
     }
     .endereco {
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
     .endereco h2 {
         font-size: 10px;
         margin-bottom: 10px;
+    }
+    .endereco h3 {
+        font-size: 8px;
+    }
+}
+
+
+/* iphone SE */
+@media screen and (min-width: 350px) and (max-width: 375px) {
+    .conteiner {
+        max-width: 360px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    header {
+        background-color: #FFB000;
+    }
+    .cabeca {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cabeca img {
+        height: 45px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .cabeca input {
+        height: 30px;
+        border: none;
+        outline: none;
+        margin-left: 10%;
+        padding-left: 8px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    #lupa {
+        cursor: pointer;
+        height: 15px;
+        position: relative;
+        right: 38px;
+    }
+    .menu {
+        width: 25px;
+        cursor: pointer;
+    }
+    .menu span {
+        width: 100%;
+        height: 2px;
+        display: block;
+        background-color: #fff;
+        margin-bottom: 4px;
+    }
+    nav {
+        padding: 15px 0;
+        background-color: #ffc444;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav li {
+        display: inline;
+    }
+    nav li a {
+        color: black;
+        font-size: 10px;
+        padding: 0 10px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .produto {
+        display: block;
+        margin-top: 5%;
+    }
+    aside {
+        max-width: 150px;
+        width: 100%;
+        margin-left: 30%;
+    }
+    aside img {
+        margin-top: 20%;
+    }
+    main {
+        margin-left: 0px;
+    }
+    .nome {
+        margin-top: 10%;
+        margin-left: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    .nome > p {
+        padding: 0 10px;
+    }
+    .preco {
+        display: block;
+    }
+    .preco > h2 {
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .preco > h1 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .quant {
+        display: block;
+        text-align: center;
+    }
+    .quant > h1 {
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .quantidade {
+        margin-left: 0;
+    }
+    .quantidade input {
+        width: 40px;
+        height: 25px;
+        border-top: 1px solid #FFB000;
+        border-bottom: 1px solid #FFB000;
+    }
+    .quantidade button {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #FFB000;
+    }
+    .cmpr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cmpr button {
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+        margin: 0;
+        margin-bottom: 15%;
+    }
+    #btn-1 {
+        border: 1px solid #FFB000;
+    }
+    #btn-2 {
+        margin-left: 10px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    footer h1 {
+        font-size: 15px;
+    }
+    footer h2 {
+        font-size: 10px;
+    }
+    .redes-logo {
+        padding: 0;
+        margin-right: 10px;
+    }
+    .redes-logo h1 {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .redes-logo .logo img {
+        height: 25px;
+        padding: 0 5px;
+        margin: 10px 0;
+    }
+    .endereco {
+        padding: 0;
+        margin-left: 20px;
+    }
+    .endereco h2 {
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     .endereco h3 {
         font-size: 8px;
@@ -425,95 +790,19 @@ footer h2, h3 {
         font-size: 15px;
         padding: 0 60px;
     }
-    .pagInd {
-        max-width: 90%;
-        width: 100%;
-        margin: 6% auto;
-        text-align: left;
-        flex-direction: initial;
-        display: flex;
-    }
-    aside img {
-        margin: 0;
-        margin-right: 180px;
-    }
-    main > h1 {
-        font-size: 20px;
-    }
-    main .preco {
-        align-items: center;
-        margin-top: 20px;
-    }
-    main .preco > h2 {
-        font-weight: bolder;
-        color: #FFB000;
-    }
-    .leveMais {
-        display: block;
-        margin: 20px 0;
-        display: flex;
-        align-items: center;
-    }
-    .leveMais > h2 {
-        font-size: 15px;
-    }
-    .leveMais > p {
-        font-size: 15px;
-        margin-left: 10px;
-        padding: 0 5px;
-        border: 3px solid #FFB000;
-    }
-    main .quantidade {
-        margin-top: 20px;
-        display: flex;
-        justify-content: start;
-    }
-    main .quantidade button,
-    main .quantidade input {
-        height: 35px;
-        width: 35px;
-        background-color: #fff;
-        border: 1px solid #ccc;
-    }
-    main .quantidade input {
-        width: 50px;
-        text-align: center;
-    }
-    .cmpr button {
-        border: none;
-        outline: none;
-        cursor: pointer;
-        margin: 20px 0;
-        height: 50px;
-        width: 150px;
-    }
-    #btn-1 {
-        border-radius: 2px;
-        border: 1px solid #FFB000;
-        background-color: #fff;
-        font-weight: bold;
-        color: #FFB000;
-    }
-    #btn-1:hover {
-        background-color: rgb(255, 174, 0, .1);
-    }
-    #btn-2 {
-        border-radius: 2px;
-        border: 1px solid #FFB000;
-        background-color: #FFB000;
-        font-weight: bold;
-        color: #fff;
-    }
-    #btn-2:hover {
-        background-color: rgb(255, 176, 0, .8);
-    }
-}
-
-@media screen and (min-height: 700px) {
     footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .redes-logo,
+    .endereco {
+        padding: 3% 10%;
+    }
+    .redes-logo h1,
+    .endereco h2 {
+        font-size: 15px;
+    }
+    .endereco h3 {
+        font-size: 15px;
     }
 }
